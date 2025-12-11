@@ -5,13 +5,7 @@ temp= num
 rev = 0
 while temp!=0:
     digit = temp %10
-    or i in n:
-#     if i in a:
-#         Vowels.append(i)
-# print(Vowels)
-
-# li = ['Python','Java','PHP']
-# print(li[1][-1])rev = rev*10+digit
+    rev = rev*10+digit
     temp = temp//10
 if rev==num:
     print("Pallidrome")
@@ -47,20 +41,19 @@ print(Vowels)
 # f
 
 
-'''li = {"name":"Krish Gour",
-      "age":21,
-      "city":"Sehore"}
-for key,value in li.items():
-    print(key,":",value)'''
+#       "age":21,
+#       "city":"Sehore"}
+# for key,value in li.items():
+#     print(key,":",value)'''
 
-num = [10,20,8,25,25]
-largest = 0
-very_largest = 0
-for i in num:
-    if i>largest:
-        largest = very_largest
-        very_largest = i
-        print(very_largest)
+# num = [10,20,8,25,25]
+# largest = 0
+# very_largest = 0
+# for i in num:
+#     if i>largest:
+#         largest = very_largest
+#         very_largest = i
+#         print(very_largest)
     
 
 
