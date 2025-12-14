@@ -291,18 +291,192 @@ l = [1,2,2,3,4,55,5,4,]
 #     factorial*=i
 # print(factorial)
 
-a = 'kroish 222'
-l = 0
-s = 0
-d = 0
-for i in a :
-    if i.isalpha():
-        l+=1
-    elif i.isspace():
-        s+=1
-    elif i.isdigit():
-        d+=1
-print("Letter :",l)
-print("space :",s)
-print("digit :",d)
+# a = 'kroish 222'
+# l = 0
+# s = 0
+# d = 0
+# for i in a :
+#     if i.isalpha():
+#         l+=1
+#     elif i.isspace():
+#         s+=1
+#     elif i.isdigit():
+#         d+=1
+# print("Letter :",l)
+# print("space :",s)
+# print("digit :",d)
 
+# def greet(name):
+#     return f"Hello, {name} how are you doing today?"
+# ob = greet("Krish")
+# print(ob)
+
+# def basic_op(operator, value1, value2):
+#     if operator=='+':
+#         return value1+value2
+#     elif operator=='-':
+#         return value1-value2
+#     elif operator=='*':
+#         return value1*value2
+#     elif operator=='/':
+#         return value1/value2
+# a = basic_op('+',2,4)
+# print(a)
+
+# def string_to_array(s):
+#     new = []
+#     for i in s:
+#         new.append(i)
+           
+#     print(new)
+
+
+# def maps(a):
+#     for i in a:
+#         return i**2
+#     print(i)
+# a = [1,2,3]
+
+# def make_negative( number ):
+#     if number>0:
+#         return -number
+#     elif number==0:
+#         return  0
+#     elif number<0:
+#         return +number
+# print(make_negative(6))
+# print(make_negative(-364))
+
+
+# def remove_char(s):
+#     if len(s) == 2:
+#         return ""
+#     else:
+#         return s[1:-1]
+# print(remove_char("Krish"))
+
+# def abbrev_name(name):
+#     for i in name:
+#         return i.split(" ")
+    
+
+
+    
+# print(abbrev_name("Krish Gour"))
+
+
+
+# def abbrev_name(name):
+#     first,last= name.split()
+#     return first[0].upper() + "." + last[0].upper()
+    
+
+
+    
+# print(abbrev_name("Krish Gour"))
+# print(abbrev_name("Pallavi Gour"))
+
+# def repeat_str(repeat, string):
+#     if repeat>0:
+#         return repeat*string
+# print(repeat_str(3,"krish"))
+# def find_average(numbers):
+#     if numbers=='':
+#         return 0
+#     else:
+#         sum=0
+#         for i in numbers:
+#             sum+=i
+#             return sum
+# print(find_average([1,2,3,4,5]))
+
+# def find_average(numbers):
+#     return " ".join(numbers)
+# print(find_average(["krish","kanha"]))
+
+# def sum(sum):
+#     for i in sum:
+#         return i
+#         # count=0
+#         # if sum>=0:
+#         #     count+=1
+#         # return count
+
+# print(sum([1,2,3,4,-1,-2]))
+
+# l = [1,2,3]
+# for i in l:
+#     print(i)
+
+# def sum(num):
+#     a = []
+#     for i in num:
+#         if i in a:
+#             return a.append(i)
+# print(sum([1,2,3,4]))
+# def are_you_playing_banjo(name):
+#     if name.lower().startswith('r'):
+#         return f'{name} play banjo' 
+#     else:
+#         return 'does not play banjo' 
+    
+# print(are_you_playing_banjo("hahul"))
+        
+def friend(x):
+    
+    for i in x:
+        return i
+            
+    
+# print(friend(["Ryan", "Kieran", "Jason", "Yous"]))
+# # friend = ["Ryan", "Kieran", "Jason", "Yous"]
+# # for i in friend:
+# #     print(i)
+    
+# def frind(names):
+#     for i in names:
+#         print(i)
+
+
+    
+# frind(["Ryan", "Kieran", "Jason", "Yous"])
+
+# def num(a):
+#     if a<=0:
+#         return 0
+#     else:
+#         for i in a:
+#             last = i[0]
+#             if i[1]>last:
+#                 last = i + last
+#                 return last
+
+
+# print(num(123))
+# def count_by(x, n):
+#     for i in range(x,n+1):
+#         print(i*x) 
+# count_by(2,10)
+# def count_by(x, n):
+#     for i in range(x-1,n+1,x):
+#         print(i*x) len(numbers)<4 and 
+# count_by(2,10)
+
+# def sum_two_smallest_numbers(numbers):
+#     for i in numbers:
+#         if i<=0 and i(len)<4:
+#             return 0 
+#         else:
+#             last = i[0]
+#             seclast = i[0]
+#             if i[1]>last and i[1]<seclast:
+#                 last = i
+#                 seclast = i
+#             print(last+seclast)
+
+ 
+# sum_two_smallest_numbers([2,3,6,4,5])  
+
+def opposite(number):
+    print(f'-{number}')
+opposite(10)
