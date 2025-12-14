@@ -422,10 +422,10 @@ l = [1,2,2,3,4,55,5,4,]
     
 # print(are_you_playing_banjo("hahul"))
         
-def friend(x):
+# def friend(x):
     
-    for i in x:
-        return i
+#     for i in x:
+#         return i
             
     
 # print(friend(["Ryan", "Kieran", "Jason", "Yous"]))
@@ -477,6 +477,29 @@ def friend(x):
  
 # sum_two_smallest_numbers([2,3,6,4,5])  
 
-def opposite(number):
-    print(f'-{number}')
-opposite(10)
+# def opposite(number):
+#     print(f'-{number}')
+# opposite(10)
+
+
+# You will be given an array of numbers. You have to sort the odd numbers
+# in ascending order while leaving the even numbers at their original positions.
+
+# def number(x):
+#     for i in x:
+#         if i%2!=0:
+#             print(str(i[::-1]))
+# number([1,2,3,4])
+
+# def number(x):
+#     sum=0
+#     for i in x:
+#         if i>0:
+#             sum+=i
+#     print(sum)
+            
+   
+# number([1,2,3,-9])
+l = [2,3,22,4,5]
+l.insert(8,9)
+print(l)
